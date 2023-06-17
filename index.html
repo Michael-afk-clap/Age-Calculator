@@ -1,0 +1,45 @@
+<html>
+        <body><!DOCTYPE html>
+<html>
+    <body>
+        <h1 class="age">
+            Age calculator
+        </h1>
+        <input type="text" placeholder="Year Of Birth"
+         id="yob" class="par">
+         <p id="result">
+             
+         </p>
+         <button onclick="calculateAge()"class="button"> Calculate Age</button>
+    </body>
+</html></body>
+        <style>.age{
+    color:white;
+}
+.button{
+    color:lightseagreen;
+    background:white;
+    border:none;
+    border-radius:30px;
+    padding:10px;
+}
+.par{
+    color:green';
+}
+body{
+    background-color:crimson;
+    text-align:center;
+}
+input{
+    width:200px;
+    border:solid 3px teal;
+    padding:15px;
+    border-radius:30px;
+}</style>
+        <script>function calculateAge(){
+    var bornyear=document.getElementById("yob").value
+    var age = 2023-bornyear;
+    document.getElementById("result").innerHTML=age;
+    document.getElementById("result").style.color="cyan"
+}</script>
+      </html>
